@@ -32,8 +32,10 @@ while True:
         add_value(current_amount, get_last_blockchain_value())  
     elif user_choice == '2':
         print_blockchain_element()
+    elif user_choice == '3':
+        break
     else:
-        print("Input is invalid,please pick a value from the list!")        
+        print("Input is invalid, please pick a value from the list!")
 
 
 print("Done")
